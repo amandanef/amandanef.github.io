@@ -1,0 +1,57 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "flaticon";
+  src: url("./flaticon.ttf?30fd7116054fba4548dc093e67033d44") format("truetype"), url("./flaticon.woff?30fd7116054fba4548dc093e67033d44") format("woff"), url("./flaticon.woff2?30fd7116054fba4548dc093e67033d44") format("woff2"), url("./flaticon.eot?30fd7116054fba4548dc093e67033d44#iefix") format("embedded-opentype"), url("./flaticon.svg?30fd7116054fba4548dc093e67033d44#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+  font-family: flaticon !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-ban:before {
+  content: "";
+}
+
+.flaticon-bed:before {
+  content: "";
+}
+
+.flaticon-camper:before {
+  content: "";
+}
+
+.flaticon-car:before {
+  content: "";
+}
+
+.flaticon-dog:before {
+  content: "";
+}
+
+.flaticon-electronics:before {
+  content: "";
+}
+
+.flaticon-gas-stove:before {
+  content: "";
+}
+
+.flaticon-pot:before {
+  content: "";
+}
+
+.flaticon-television:before {
+  content: "";
+}
+
+.flaticon-water:before {
+  content: "";
+}
+/*# sourceMappingURL=flaticon.css.map */

@@ -1,0 +1,9 @@
+Github - https://github.com/travishowey/budgetappbackup2
+
+Live Hosted Website URL - https://budget-capstone.herokuapp.com/login/?next=/profile/
+We had some issues with the register page on Heroku specifically so if it doesn't work, here are credentials
+Username - test3
+Password - NewPassword2!
+
+Presentation - https://www.loom.com/share/7fcc2784576649f5b3e8698fcd913605
+

@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="icon" href="">
+
+    <title>Amanda Nef's Portfolio</title>
+
+    <!--FontAwesome-->
+    <script src="/js/all.js"></script>
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!--Animate.style-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!--Main CSS-->
+    <link rel="stylesheet" href="/static/css/main.css" />
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav class="navbar fixed-top py-3 px-3 mb-0 bg-primary text-white navbar-expand-sm">
+        <!--Logo-->
+        <div class="ml-4 mt-1">
+            <a href="/index.html">
+                <h3 class="text-white">Amanda Nef</h3>
+            </a>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarLinks">
+            <span class="navbar-toggler-icon">
+                <i class="fas fa-bars text-white mt-1"></i>
+            </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarLinks">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a href="/index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/components/about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/components/portfolio.html" class="nav-link">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/components/contact.html" class="nav-link">Contact</a>
+                </li>
+                <span>
+                </span>
+                <li class="nav-item">
+                    <a href="/downloadable/Amanda Nef Resume 2023.pdf" download class="nav-link">Resumé</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!--Hero Header Section-->
+    <header id="header-questlog" class="hero-image">
+        <div class="container align-content-center h-80">
+            <div class="hero-text h-80 text-center text-white align-content-center mt-5 pt-5">
+                <h2 class="text-white mt-5 pt-3">Quest Log Application</h2>
+                <div class="text-underline bg-warning text-center mx-auto mb-3"></div>
+                <p>HTML, Advanced CSS, Django and Python</p>
+            </div>
+        </div>
+    </header>
+    <!--End of Hero Header-->
+    <!--Disclaimer Section-->
+    <section id="disclaimer-questlog" class="bg-info p-5">
+        <div class="container px-5">
+            <h4>Disclaimer</h4>
+            <div class="mini-underline bg-success my-3"></div>
+            <p class="text-indent">
+                This project is inspired by Nintendo's Legend of Zelda series and is for personal use only. The
+                application is not released to the public and is not intended for commercial use. All original logos,
+                icons, and sounds are property of Nintendo.
+            </p>
+            </p>
+        </div> <!-- /container -->
+    </section>
+    <!--End of Background Section-->
+    <!--Background Section-->
+    <section id="background-questlog" class="bg-info p-5">
+        <div class="container px-5">
+            <h4>Background</h4>
+            <div class="mini-underline bg-success my-3"></div>
+            <p class="text-indent">
+                As a video game lover, I am fond of the organization, motivation, and accomplishment of completing
+                tasks, quests, stories, and objectives that various games have to offer. When I started college, I
+                sought to find an application to help manage my homework schedule that worked like a to-do list but felt
+                like an adventure log or quest menu. Unfortunately, none of the pre-existing apps I tried really stuck
+                with me, which is why I decided to code my own.
+            </p>
+            <p class="text-indent">Personally, my favorite adventure menu is the one from Nintendo’s Legend of Zelda:
+                Breath of the Wild due to its modern style, the confirmation noises that are generated when a task is
+                created/completed, and the ability to “set destination” to highlight the current task. These were all
+                things that I looked for in a game-themed planner, which is why I decided to create a functional version
+                based on this menu. While the main purpose behind this project is to have an application personal to me
+                that will help keep me motivated in my work, I’m hoping that other video game lovers will appreciate and
+                have a desire to use this application as well.</p>
+            </p>
+            <p class="text-indent">I chose to utilize Django and python to create the application. Quests are stored
+                under a database and are only brought into view based on the user that is currently logged in. Django's
+                views and urls functionality allowed for organized creation and display of quests, quest details, and
+                CRUD functionalities within the database. View the video at the bottom of the page to see how the
+                project came together!</p>
+            <figure>
+                <img src="/static/images/Projects/QuestLog/QuestLog_Screenshot.png"
+                    alt="Screenshot of the Quest Log desktop version. Displays quests on the left column and quests on the right column. Styled to look like the adventure log in Legend of Zelda: Breath of the Wild."
+                    class="project-detail-img img-thumbnail">
+                <figcaption>Image 1. Desktop view of the Quest Log. Quest "to-do list" items are displayed as a list in
+                    the left column, while quest descriptions are displayed in the right column.</figcaption>
+            </figure>
+        </div> <!-- /container -->
+    </section>
+    <!--End of Background Section-->
+
+    <!-- Project Section-->
+    <section id="project-questlog" class="bg-info p-5">
+        <div class="container px-5">
+            <div>
+                <h4>The Project</h4>
+                <div class="mini-underline bg-success my-3"></div>
+                <div>
+                    <p>The features of this application in it's current state include:</p>
+                    <ul>
+                        <li>The ability to add, edit, delete, and mark quests as complete.</li>
+                        <li>When a quest is marked as "active" it will be displayed at the top of the list.</li>
+                        <li>Sounds will accompany actions, such as selecting a quest or displaying a celebratory
+                            "complete" banner when a task is completed.</li>
+                        <li>Completed tasks are tallied as a quest counter represented by "Rupees", the in-game
+                            currency.</li>
+                        <li>User creation for log in/out functionality, which only displays tasks pertaining to the
+                            active user.</li>
+                        <li>Mobile and desktop view.</li>
+                    </ul>
+                </div>
+                <!-- Video -->
+                <div>
+                    <video class="w-100" controls>
+                        <source src="/static/images/Projects/QuestLog/Questlog_Recording.mp4" type="video/mp4"
+                            alt="Video of the Quest Log walkthrough.">
+                    </video>
+                </div>
+            </div> <!-- /container -->
+    </section>
+    <!--End of Research Methods Section-->
+</body>
+<!-- FOOTER -->
+<section class="footer">
+    <footer class="m-0 p-4 bg-danger text-lg-start text-white text-lg-left text-sm-center">
+        <div class="container text-white text-center p-2">
+            <div class="row justify-content-center">
+
+                <div class="col-4 col-md-6 col-lg-8">
+                    <div class="row">
+                        <div class="col-lg-6 text-right mt-5">
+                            <h3 class="text-white">Amanda Nef</h3>
+                            <p>Web Developer & Graphic Designer</p>
+                        </div>
+                        <div class="col-lg-6 text-sm-right text-lg-center">
+                            <div>
+                                <a href="/index.html">
+                                    <img src="/static/images/Graphics/Logos/Amanda Nef Signature.png"
+                                        alt="Amanda Signature Logo" class="footer-logo">
+                                </a>
+                            </div>
+                            <small class="d-block">&copy; Copyright Amanda Nef 2023</small>
+                            <small>All Rights Reserved</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 text-left mt-5">
+                    <div>
+                        <h5 class="text-white mb-0">Email</h5>
+                        <p class="">amandanef2009@gmail.com</p>
+                    </div>
+                    <div>
+                        <h5 class="text-white mb-0">Phone</h5>
+                        <p>(801) 663-6047</p>
+                    </div>
+                    <div>
+                        <h5 class="text-white mb-0">LinkedIn</h5>
+                        <a href="" class="text-white">
+                    </div>
+                    <p><a href="https://www.linkedin.com/in/amanda-nef-378017162/" class="sub-nav-link">Visit my
+                            LinkedIn</a></p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</section>
+<!--End Footer-->
+<!--jQuery-->
+<script src="/js/jquery-3.5.1.min.js"></script>
+<!--Boostrap JS-->
+<script src="/js/bootstrap.bundle.min.js"></script>
+
+<style>
+    #header-questlog {
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+            url(/static/images/Projects/QuestLog/andrew-neel-1-29wyvvLJA-unsplash.jpeg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+</style>
+
+</html>
